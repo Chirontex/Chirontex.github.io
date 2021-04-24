@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 3rem;
+}
+
+#content {
+    max-width: 600px;
+    margin: auto;
+}
+
+@media (min-width: 360px) {
+    p {
+        font-size: large;
+    }
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: x-large; 
+    }
+}
+
